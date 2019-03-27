@@ -8,7 +8,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     color: white;
 }
 
@@ -32,9 +32,9 @@
     #container {
         display: flex;
         flex-direction: column;
-        height:50vh;
+        height:30vh;
         background-size: 100% auto;
-        margin-top: 55px;
+        margin-top: 122px;
     }
 
 
