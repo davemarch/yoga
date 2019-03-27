@@ -1,0 +1,48 @@
+#linktile {
+    /* border: solid 1px red; */
+    height: 25%;
+}
+
+.mob-line{
+    display: none;
+}
+
+#linktile h1 {
+    font-size: 24px;
+}
+
+
+
+@media (max-width: 600px){
+
+    #linktile h1{
+        /* border: solid 1px red; */
+        font-size: 24px;
+    }
+
+.mob-line {
+    display: block;
+    position: relative;
+    left: 0%;
+    width: 80%;
+    background: grey;
+    height: 2px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+
+}
+#chevron-arrow-left {
+    display: inline-block;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    width: 10px; height: 10px;
+    transform: rotate(45deg);
+  }
+
+ .active #chevron-arrow-left{
+    transform: rotate(225deg)
+ } 
+
+
+}

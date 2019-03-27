@@ -1,0 +1,48 @@
+#header {
+    display: flex;
+    flex-direction: row;
+    /* border: solid 1px red; */
+    height: 5%;
+    text-align: center;
+    padding: 10px 16px;
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 2px;
+
+}
+
+#headerWrap {
+    width: 100%;
+    position: fixed;
+    background: white;
+    z-index: 1;
+}
+#offerCode{
+    /* border: solid 1px blue; */
+    width: 100%;
+}
+
+#storeLocator{
+    background: #057453;
+    /* border: solid 1px blue; */
+    width: 20%;
+}
+
+#header a {
+    text-decoration: none;
+    color: #ff4e01;
+}
+
+#header a:hover {
+    color: black;
+    transition:all ease 0.5s;
+
+}
+
+
+
+
+@media (max-width: 600px) {
+    #header {
+    }
+}

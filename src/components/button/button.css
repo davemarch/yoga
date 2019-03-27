@@ -1,0 +1,48 @@
+#button {
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+    height: 10%;
+    width: 20%;
+}
+
+#orderTextMobile {
+    display: none;
+}
+
+button {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: none;
+    text-align: center;
+}
+
+.orderButton {
+    border-radius: 10px;
+    border: solid 1px white;
+    background: black;
+    color: white;
+    font-size: 190%;
+    font-weight: 200;
+}
+
+@media (max-width: 600px){
+    #button {
+        width: 80%;
+        left: 10%;
+    }
+
+    .orderButton {
+        background: #317255;
+        font-size: 200%;
+    }
+
+    #orderTextDesktop {
+        display: none;
+    }
+
+    #orderTextMobile {
+        display: block;
+    }
+}

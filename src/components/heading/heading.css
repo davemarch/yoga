@@ -1,0 +1,70 @@
+#heading {
+    /* border: solid 1px red; */
+    position: relative;
+    top: 20%;
+    left: 10%;
+
+}
+
+.headingText {
+    position: relative;
+    /* border: solid red 1px; */
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+}
+
+.icedCoffeeText {
+    position: relative;
+    font-size: 170%;
+    width: 130%;
+    left: 100%;
+}
+
+.icedCoffeeText h1{
+    padding: 5%;
+}
+
+@media (max-width: 600px){
+    #heading {
+        width: 100%;
+        right: 0%;
+    }
+
+    .hotCoffeeText {
+        right: 0%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .hotCoffeeText h1 {
+        font-size: 170%;
+    }
+
+    .hotCoffeeText h4 {
+        font-size: 80%;
+    }
+
+    .icedCoffeeText {
+        left: 0%;
+        right: 0%;
+        width: 100%;
+    }
+
+    #icedCoffee {
+        padding-top: 0%;
+        flex-direction: column
+    }
+
+    .icedCoffeeText h1{
+        font-size: 150%;
+    }
+
+    .icedCoffeeText h4{
+        font-weight: 400;
+        font-size: 100%;
+    }
+}
+
+
