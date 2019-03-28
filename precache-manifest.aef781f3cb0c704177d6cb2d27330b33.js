@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/yoga/static/media/buyCoffee.5fb42db7.jpg"
   },
   {
-    "revision": "99a00bd747fed5509155",
-    "url": "/yoga/static/css/main.5795e680.chunk.css"
+    "revision": "73453e40bb4518edaf48",
+    "url": "/yoga/static/css/main.3a5ec7e0.chunk.css"
   },
   {
     "revision": "32c3a96c9dbbd27a99d5",
@@ -20,12 +20,12 @@ self.__precacheManifest = [
     "url": "/yoga/static/media/yogamoon.a539894f.png"
   },
   {
-    "revision": "e9514e6da888d93dab249bfa7460098a",
-    "url": "/yoga/static/media/yogaphoto1.e9514e6d.jpeg"
+    "revision": "169247699187566e306a38cc6c3f8153",
+    "url": "/yoga/static/media/moonPhoto1.16924769.jpg"
   },
   {
-    "revision": "99a00bd747fed5509155",
-    "url": "/yoga/static/js/main.c9d491c2.chunk.js"
+    "revision": "73453e40bb4518edaf48",
+    "url": "/yoga/static/js/main.4b23d900.chunk.js"
   },
   {
     "revision": "f872f55e4f418ab3c0e199376e62cd0a",
@@ -36,6 +36,10 @@ self.__precacheManifest = [
     "url": "/yoga/static/media/buyEquipment.80bb634e.png"
   },
   {
+    "revision": "efbb48239caed29b9dff98ad595b8fcb",
+    "url": "/yoga/static/media/moonPhoto2.efbb4823.jpg"
+  },
+  {
     "revision": "5e00badedb58df5b57325e03227c2e9b",
     "url": "/yoga/static/media/StubrewIcedCoffee.5e00bade.png"
   },
@@ -44,7 +48,7 @@ self.__precacheManifest = [
     "url": "/yoga/static/media/map.3cc2b029.png"
   },
   {
-    "revision": "7c0d0b471e613a7c2fe60a4199f0648f",
+    "revision": "c02b35788911a4323b1da1b3c41788f2",
     "url": "/yoga/index.html"
   }
 ];
