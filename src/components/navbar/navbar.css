@@ -1,11 +1,9 @@
 #navbar {
-    /* border: solid 1px red; */
     width: 100%;
     padding: 25px 0;
     background: #0E141D;
     color: white;
     z-index: 1;
-
 }
 
 #navbar ul {
@@ -21,39 +19,54 @@
     color: white;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 1.5em;
+    font-size: 1.2rem;
     letter-spacing: 2px;
     transition:all ease 0.5s;
 }
-    
-
-
 
 #navbar a:hover {
     color: #ff4e01;
 }
 
-
-#logo {
-    position: absolute;
-    top : 10%;
-    left : 2%;
-    width: 10% ;
-    max-width: 200px;
-    min-width: 100px;
-}
-
 .burgerIcon {
-    display:none;
+    display: none;
 }
 
-@media (max-width: 600px){
-    #navbar{
-        position: fixed;
+/* up to tablet */
+@media (max-width: 900px) {
+    
+    #navbar {
+        /* position: fixed;
         display: flex;
         flex-direction: row;
-        width: 100vw;
+        width: 100vw; */
+        
+        /* LEANNE CODE:
+        dont need the above as your navbar is inside your  header which is already fixed :) */
+    }
+    
+    #navbar ul {
+        display: none;
+        position: relative;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 10%;
+        /* right: 5%; - LEANNE CODE: this is forcing the ul to be off center */
+        padding: 0;
+    }
 
+    .navbar ul {
+        display: none;
+    }
+    
+    .active ul {
+        display: block !important;
+    }
+
+    .navbar li {
+        flex-direction: column;
+        text-align: center;
+        padding: 5%;
     }
 
     .burgerIcon {
@@ -89,8 +102,6 @@
         top: 12px;
     }
 
-   
-
     .active .burgerIcon .line:after {
         transform: translateY(12px)
     }
@@ -98,49 +109,7 @@
     .active .burgerIcon .line:before {
         transform: translateY(-14px)
     }
-
-
-    #navbar ul {
-        display: none;
-        position: relative;
-        flex-direction: column;
-        width:100%;
-        margin-top: 10%;
-        right: 5%;
-        padding: 0;
-
-    }
-
-    .navbar ul {
-        display: none;
-    }
-
-    .active ul {
-
-        display: block !important;
-    }
-
-    .navbar li {
-        flex-direction: column;
-        text-align: center;
-        padding: 5%;
-    }
-
-    #logo {
-        position: absolute;
-        left: auto;
-        right: 2%;
-        top: 140%;
-        padding: 1%;
-        min-width: 75px;
-        max-width: 75px;
-        z-index: 2;
-    }
-
-
-    
-
-
-
 }
+
+
 

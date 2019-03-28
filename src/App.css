@@ -1,14 +1,19 @@
-.greenText {
-    color: #057453
-}
-
 * {
     font-family: 'Barlow Condensed', sans-serif;
+    
+    /* LEANNE CODE: */
+    box-sizing: border-box;
 }
 
 .App {
-    overflow: hidden;
+    /* LEANNE CODE:
+    Shouldn't need this now as nothing overflows the viewport :) */
+    
+    /* overflow: hidden; */
 }
 
+.greenText {
+    color: #057453
+}
 
 

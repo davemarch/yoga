@@ -1,18 +1,22 @@
-#heading {
-    /* border: solid 1px red; */
-    position: relative;
-    top: 20%;
-    left: 10%;
-
+#heading {    
+    /* LEANNE CODE:
+    This pushes your stuff off the edge of the viewport */
+    /* top: 20%;
+    left: 10%; */
+    position: absolute;
+    top: 65%;
+    right: 5%;
+    display: inline-block;
 }
 
 .headingText {
     position: relative;
-    /* border: solid red 1px; */
     width: 100%;
     text-transform: uppercase;
     font-size: 1.5em;
     letter-spacing: 2px;
+    
+    /* LEANNE CODE: */
 }
 
 .icedCoffeeText {
@@ -26,12 +30,25 @@
     padding: 5%;
 }
 
-@media (max-width: 600px){
+/* up  to tablet */
+@media (max-width: 900px) {
+    
     #heading {
-        width: 100%;
-        right: 0%;
+        /* LEANNE CODE: */
+        top: 45%;
     }
-
+    
+    .headingText {
+        /* LEANNE CODE: */
+        font-size: 0.8em;
+    }
+    
+    
+    
+    
+    
+    
+    
     .hotCoffeeText {
         right: 0%;
         width: 100%;
@@ -66,5 +83,15 @@
         font-size: 100%;
     }
 }
+
+/* up to mobile */
+@media (max-width: 600px){
+    
+    #heading {
+        /* LEANNE CODE: */
+        top: 42%;
+    }
+}
+
 
 

@@ -1,5 +1,4 @@
 #footer {
-    /* border: solid 1px red; */
     background: #0f131b;
     color: white;
     font-weight: 100;
@@ -9,8 +8,16 @@
 }
 
 .address {
-    margin-left: 50px;
+    /* margin-left: 50px; */
     width: auto;
+}
+
+.address iframe {
+    
+    /* LEANNE CODE:
+    stops the map from overflowing it's parent div
+    maps are naughty little things */
+    max-width: 100%;
 }
 
 .footerWrapper {
@@ -25,16 +32,20 @@
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
     #footer {
         flex-direction: column;
         text-align: center;
     }
     .address {
         position: relative;
-        margin-left: 0;
-        padding: 5%;
-        left: 0%;
+        
+        /* LEANNE CODE:
+        don't need this hack postion now */
+        
+        /* margin-left: 0; */
+        /* padding: 5%; */
+        /* left: 0%; */
     }
 
     #mapicon {
