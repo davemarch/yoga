@@ -36,7 +36,7 @@ class App extends Component {
               arrowWhite: arrowWhite,
               arrowGreen: arrowGreen,
               headings: [
-              <div className = "headingText"><h1> Luna Yoga Studio</h1><h4>Yoga doesn't care if....</h4></div>, 
+              <div className = "headingText"><h1> Coming Soon...</h1><h4>Yoga doesn't care if....</h4></div>, 
               // <div className = "icedCoffeeText"><h1>The new <span className='greenText'>StuBrew</span></h1><h4>A delicious new <span className="greenText">nitro brew</span> develop carefully on the darkside of the moon, instilled with the freshness of Stu himself.</h4></div>, 
               ],
               
