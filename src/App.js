@@ -11,7 +11,8 @@ import instagram from "./Assets/Icons/icon-instagram.png";
 import linkedin from "./Assets/Icons/icon-linkedin.png";
 import pinterest from "./Assets/Icons/icon-pinterest.png";
 import twitter from "./Assets/Icons/icon-twitter.png";
-import heroBackground from "./Assets/Images/yogaphoto1.jpeg";
+import moonPhoto1 from "./Assets/Images/moonPhoto1.jpg";
+import moonPhoto2 from "./Assets/Images/moonPhoto2.jpg";
 import icedCoffee from "./Assets/Images/StubrewIcedCoffee.png";
 import buyCoffee from "./Assets/Images/buyCoffee.jpg";
 import buyTea from "./Assets/Images/buyTea.jpg";
@@ -30,8 +31,8 @@ class App extends Component {
                 // storeLocator : <p id="storeLocator" style={{color:'white'}}></p>,
                 logo : logo,
                 menu : ['About Us', 'TimeTable', 'Contact Us', 'Courses', 'Workshops', 'News', 'Corporate']},
-    Main : { heroBackground : heroBackground,
-              // icedCoffee : icedCoffee,
+    Main : { heroBackground : moonPhoto1,
+              // icedCoffee : moonPhoto2,
               icedCoffeeBg : '#0e141d',
               arrowWhite: arrowWhite,
               arrowGreen: arrowGreen,
@@ -41,7 +42,7 @@ class App extends Component {
               ],
               
               spans: [
-              // <h1 style={{color:'black'}}>Try something <span className='greenText'>new</span>?</h1>, 
+              <h1 style={{color:'black' , textTransform : "uppercase"}}>Luna Yoga Studio</h1>, 
               // <h1 style={{color:'white'}}>The Stu <span style={{color:'Black'}}>Shop</span>?</h1>
             ]},
     Tiles : [
@@ -55,7 +56,7 @@ class App extends Component {
               companyLinks : ['Code Ethics', 'Responsible Sourcing', 'Supply Chain', 'Limited Partners', 'Office Coffee'],
               socialLinks : [<a href=''><img src={facebook}/></a>, <a href=''><img src={instagram}/></a>, <a href=''><img src={linkedin}/></a>, <a href=''><img src={twitter}/></a>,<a href=''><img src={pinterest}/></a>]
              },
-    Footer : {address : <p>Luna Yoga Studio, 227A Bacup Road, Rawtenstall, BB4 7PA .</p>,
+    Footer : {address : <p>Luna Yoga Studio, 227A Bacup Road, Rawtenstall, BB4 7PA </p>,
               links : [''],
               trademark : "",
               map : <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2361.983666263378!2d-2.279251583879109!3d53.70073698005488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bbd4c2363184f%3A0xbda09ae4bbb3731d!2sValley+Yoga+%26+Ayurvedic+Massage!5e0!3m2!1sen!2suk!4v1553720244003"></iframe>}

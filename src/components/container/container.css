@@ -12,10 +12,9 @@
     color: white;
 }
 
-#icedCoffee {
-    /* border : solid 1px blue; */
-    width: 30%;
-    padding: 5%;
+.middleContainer {
+    border: solid red 1px;
+
 }
 
 #arrow {

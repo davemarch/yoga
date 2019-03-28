@@ -20,17 +20,14 @@ const Main = (props) => {
             background = {props.heroBackground} 
             headings = {props.headings[0]} 
         />
-        {/* <Span
-            spans = {props.spans[0]}/> */}
-            <div className = "icedCoffeeCont">
-                {/* <Container  
-                    arrow = {props.arrowWhite}
-
-                    icedCoffee = {props.icedCoffee} 
-                    icedCoffeeBg = {props.icedCoffeeBg} 
-                    headings = {props.headings[1]} 
-                    /> */}
-            </div>
+        <Span
+            spans = {props.spans[0]}/>
+        <div className = "middleContainer">
+        <Container
+            background = {props.icedCoffee} 
+            headings = {''} 
+        />
+       </div>
         <div className="greenBg">
             {/* <Span        
                 spans = {props.spans[1]}/> */}
