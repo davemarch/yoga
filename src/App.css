@@ -9,7 +9,7 @@
     /* LEANNE CODE:
     Shouldn't need this now as nothing overflows the viewport :) */
     
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .greenText {
