@@ -11,7 +11,10 @@
 
 .address {
     /* margin-left: 50px; */
+    position: relative;
     width: auto;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .address iframe {
@@ -60,6 +63,7 @@
     }
     
     .footerWrapper {
+        display: none;
         text-align: center;
         margin-left: 0%;    
         width: 100%;
