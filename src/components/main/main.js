@@ -68,7 +68,7 @@ const Main = (props) => {
             />
         </div>
         <Span
-        spans = {props.spans[2]}
+        // spans = {props.spans[1]}
             />
         <a className='anchor' name="Corporate"/>
         <div className = "Corperate">

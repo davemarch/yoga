@@ -1,9 +1,22 @@
 #container {
-    color: white; 
     height: 100vh;
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
+    overflow-x: scroll;
+}
+
+#topContainer {
+        color: white; 
+        position: relative;
+        margin-top: 100%;
+        background-size: 100% auto;
+        background-position: center;
+        height: 40vh;
+}
+
+.topContainer #heading{
+    top: 40%;
 }
 
 #arrow {
@@ -15,7 +28,6 @@
 }
 
 .aboutUs{
-    border: solid red 1px;
     color: black;
 }
 
@@ -42,7 +54,7 @@
 @media (max-width: 900px) {
 
     #container {
-        margin-top: 24%;
+        /* margin-top: 24%; */
         
         /* display: flex; - LEANNE CODE: already have this on the container above - dont need it twice */
         /* flex-direction: column; */
@@ -55,6 +67,15 @@
         background-position: center;
         height: 40vh;
         
+    }
+
+    .topContainer {
+        margin-top: 25%;
+}
+
+    .topContainer #heading{
+        /* border: solid red 1px; */
+        top: 40%;
     }
 
     .icedCoffeeCont {
