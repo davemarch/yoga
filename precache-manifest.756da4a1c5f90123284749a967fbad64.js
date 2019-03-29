@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/yoga/static/media/buyCoffee.5fb42db7.jpg"
   },
   {
-    "revision": "73453e40bb4518edaf48",
-    "url": "/yoga/static/css/main.3a5ec7e0.chunk.css"
+    "revision": "b8d58e4002906dfe5f06",
+    "url": "/yoga/static/css/main.cfbdd5bf.chunk.css"
   },
   {
     "revision": "32c3a96c9dbbd27a99d5",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/yoga/static/media/moonPhoto1.16924769.jpg"
   },
   {
-    "revision": "73453e40bb4518edaf48",
-    "url": "/yoga/static/js/main.4b23d900.chunk.js"
+    "revision": "b8d58e4002906dfe5f06",
+    "url": "/yoga/static/js/main.95e00416.chunk.js"
   },
   {
     "revision": "f872f55e4f418ab3c0e199376e62cd0a",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/yoga/static/media/map.3cc2b029.png"
   },
   {
-    "revision": "c02b35788911a4323b1da1b3c41788f2",
+    "revision": "b4663987f18134bcfbfef3e52b4f114a",
     "url": "/yoga/index.html"
   }
 ];
