@@ -31,7 +31,7 @@ const Main = (props) => {
             headings = {''} 
         />
 
-        <a name="TimeTable">
+        <a className='anchor' name="TimeTable">
         </a> 
         
        </div>
