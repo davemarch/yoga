@@ -26,7 +26,8 @@
     left: 0%;
     width: 80%;
     background: grey;
-    height: 2px;
+    opacity: 0.5;
+    height: 0.5px;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 2%;

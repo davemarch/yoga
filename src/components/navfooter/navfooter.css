@@ -3,6 +3,7 @@
     flex-direction: row;
     background: #e7e7e7;
     text-align: center;
+    box-sizing: content-box;
 }
 
 #navfooter h1 {
@@ -34,6 +35,7 @@ ul {
 
 .col-social{
     position: relative;
+    box-sizing: initial; 
     height: 100%;
     width: 50%;
     padding: 5%;

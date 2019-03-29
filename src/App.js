@@ -43,7 +43,16 @@ class App extends Component {
               
               spans: [
               <h1 style={{color:'black' , textTransform : "uppercase"}}>Luna Yoga Studio</h1>, 
-              // <h1 style={{color:'white'}}>The Stu <span style={{color:'Black'}}>Shop</span>?</h1>
+              <div className = 'prices'>
+              <h1 style={{color:'black'}}>Prices</h1>
+              <ul>
+              <p>1 hour class - £6</p>
+              <p>1 hour 15 minutes class - £7</p>
+              <p>Family Yoga - £10 for parent and child</p>
+              <p>Karen's Ashtanga course - £42</p>
+
+              </ul>
+              </div>
             ]},
     Tiles : [
       {img : buyCoffee, title : 'Shop Coffee', subtitle : 'Hand-Rosted Coffee, delievered fresh for ultimate flavour.'},
@@ -51,6 +60,17 @@ class App extends Component {
       {img : buyEquipment, title : 'Shop equipment', subtitle : 'Brewers and presses for making the perfect Stu at home.'}
   ],
     NavFooter : {headings : ["Help", "About Us", "Company Info", "Share"],
+              days : ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+              mondayTimes : ['7-8am, Sunrise Gentle, Vinyasa', '11am - 12.15pm, Relax and Restore', '6:30pm - 7:45pm, Six-week course with Karen'],
+              tuesdayTimes : ['', '', '6pm - 7pm, Gentle Vinyasa Flow', '7pm - 8pm Hatha Yoga'],
+              wednesdayTimes : ['7-8am, Sunrise Gentle, Vinyasa', '11am - 12.15pm, Relax and Restore', '6pm - 7pm, Family Yoga', '7pm - 8pm Gentle Vinyasa Flow'],
+              thursdayTimes : ['', '', '6pm - 7.15pm, Relax and Restore', '7:30pm - 8:30pm Hatha Yoga'],
+              fridayTimes : ['', '', 'First Friday of the month', 'Candle Light Yoga. 6:30pm - 8pm'],
+              saturdayTimes : ['9am-10am Hatha Yoga'],
+
+
+
+
               helpLinks : ["My account", 'Stu Cards', "Stu Rewards", "Shipping & Returns", "Current Offers", "Contact Us"],
               aboutLinks : ["Join Stu", 'Social Responsibilty', "Our People", "Newsroom"],
               companyLinks : ['Code Ethics', 'Responsible Sourcing', 'Supply Chain', 'Limited Partners', 'Office Coffee'],

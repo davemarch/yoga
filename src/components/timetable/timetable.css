@@ -1,0 +1,76 @@
+#timetable{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #e7e7e7;
+    text-align: center;
+    /* border: solid red 1px; */
+}
+
+.timeTable-col {
+    /* border: solid black 1px; */
+    padding: 1%;
+    width: 15%;
+}
+
+#timetable h1 {
+    /* border: solid green 1px; */
+    margin-top: 10%;
+    margin-bottom: 0%;
+    padding: 0%;
+    font-weight: 1000;
+    text-decoration: underline;
+}
+
+#timetable ul {
+    margin-top: 5%;
+    margin-bottom: 10%;
+    padding: 0%;
+    font-weight: 1000;
+}
+
+#timetable li {
+    /* border: solid green 1px; */
+    margin-top: 5%;
+    margin-bottom: 0%;
+    padding: 0%;
+    font-weight: 1000;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+@media (max-width: 600px){
+
+    #timetable ul{
+        display: none;
+    }
+
+    .active .linktile ul{
+        display: block;
+    }
+
+    .timeTable-col {
+        /* border: solid black 1px; */
+        padding: 1%;
+        width: 100%;
+    }
+
+    #timetable {
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+
+    
+
+
+}
+
+
+
+

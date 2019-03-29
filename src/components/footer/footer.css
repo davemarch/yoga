@@ -5,6 +5,8 @@
     padding: 5%;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+
 }
 
 .address {
@@ -18,12 +20,13 @@
     stops the map from overflowing it's parent div
     maps are naughty little things */
     max-width: 100%;
+    
 }
 
 .footerWrapper {
     text-align: right;
     justify-content: right;
-    margin-left: 10%;    
+    margin-left: 10%;  
     width: 70%;
 }
 

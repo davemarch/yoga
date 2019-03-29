@@ -5,6 +5,8 @@ import Span from "../span/span.js";
 import TileContainer from "../tilecontainer/tilecontainer.js";
 import NavFooter from "../navfooter/navfooter.js";
 import Button from "../button/button.js";
+import Timetable from "../timetable/timetable.js";
+
 
 
 
@@ -29,12 +31,18 @@ const Main = (props) => {
         />
        </div>
         <div className="greenBg">
-            {/* <Span        
-                spans = {props.spans[1]}/> */}
+
         </div>
-        {/* <TileContainer
-            arrow = {props.arrowGreen}
-            tiles = {props.tiles}/> */}
+
+        <div className='timetable'>
+            <Timetable 
+                    links = {props.links}
+                    headings = {props.headings}
+        />
+        </div>
+        <Span
+        spans = {props.spans[1]}
+            />
         <NavFooter 
             links = {props.links}/>
     </div>
