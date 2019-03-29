@@ -5,7 +5,7 @@ import './navbar.css';
 const NavBar = (props) => {
 
 let menuItems = props.menu.map(function(item, index){
-    return <li key={index}><a href=''>{item}</a></li>
+    return <li key={index}><a href={`#${item}`}>{item}</a></li>
   });
 
 

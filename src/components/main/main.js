@@ -25,16 +25,21 @@ const Main = (props) => {
         <Span
             spans = {props.spans[0]}/>
         <div className = "middleContainer">
+        
         <Container
             background = {props.icedCoffee} 
             headings = {''} 
         />
-       </div>
-        <div className="greenBg">
 
-        </div>
+        <a name="TimeTable">
+        </a> 
+        
+       </div>
+
+        
 
         <div className='timetable'>
+
             <Timetable 
                     links = {props.links}
                     headings = {props.headings}
