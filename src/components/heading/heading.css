@@ -1,34 +1,23 @@
-#heading {    
-    /* LEANNE CODE:
-    This pushes your stuff off the edge of the viewport */
-    /* top: 20%;
-    left: 10%; */
-    position: absolute;
-    top: 65%;
-    right: 5%;
-    display: inline-block;
-}
 
-.headingText {
+#heading
+{
     position: relative;
-    width: 100%;
     text-transform: uppercase;
     font-size: 1.5em;
     letter-spacing: 2px;
-    
-    /* LEANNE CODE: */
 }
 
-.icedCoffeeText {
-    position: relative;
-    font-size: 170%;
-    width: 130%;
-    left: 100%;
+.topContainer #heading{
+    top: 50%;
+    text-align: right;
+    margin-right: 10%;
 }
 
-.icedCoffeeText h1{
-    padding: 5%;
-}
+
+
+
+
+
 
 /* up  to tablet */
 @media (max-width: 900px) {
@@ -42,12 +31,6 @@
         /* LEANNE CODE: */
         font-size: 0.8em;
     }
-    
-    
-    
-    
-    
-    
     
     .hotCoffeeText {
         right: 0%;

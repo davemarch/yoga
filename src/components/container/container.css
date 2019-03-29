@@ -1,25 +1,9 @@
 #container {
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    /* border: solid 1px red; */
-    /* height: 90vh;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; */
-    /* background-attachment: fixed; */
-    color: white;
-    
+    color: white; 
     height: 100vh;
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-}
-
-#icedCoffee {
-    width: 30%;
-    padding: 5%;
 }
 
 #arrow {
@@ -30,11 +14,35 @@
     padding-bottom: 10%;
 }
 
+.aboutUs{
+    border: solid red 1px;
+    color: black;
+}
+
+.aboutUsText {
+    color: black;
+    position: relative;
+    top: 0;
+}
+
+.newsText {
+    color: black;
+    position: relative;
+    top: 0;
+}
+
+.corporateText {
+    color: black;
+    position: relative;
+    top: 0;
+}
+
+
 /* up to tablet */
 @media (max-width: 900px) {
 
     #container {
-        margin-top: 122px;
+        margin-top: 24%;
         
         /* display: flex; - LEANNE CODE: already have this on the container above - dont need it twice */
         /* flex-direction: column; */

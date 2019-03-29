@@ -20,6 +20,13 @@ import buyEquipment from "./Assets/Images/buyEquipment.png";
 import arrowGreen from "./Assets/Icons/icon-arrow-green.png";
 import arrowWhite from "./Assets/Icons/icon-arrow-white.png";
 import map from "./Assets/Icons/map.png";
+import yoga1 from "./Assets/Images/yoga1.jpg";
+import yoga2 from "./Assets/Images/yoga2.jpg";
+import yoga3 from "./Assets/Images/yoga3.jpg";
+import yoga4 from "./Assets/Images/yoga4.jpg";
+import yoga5 from "./Assets/Images/yoga5.jpg";
+import yoga6 from "./Assets/Images/yoga6.jpg";
+
 
 
 
@@ -38,8 +45,13 @@ class App extends Component {
               arrowGreen: arrowGreen,
               headings: [
               <div className = "headingText"><h1> Coming Soon...</h1><h4>Yoga doesn't care if....</h4></div>, 
-              // <div className = "icedCoffeeText"><h1>The new <span className='greenText'>StuBrew</span></h1><h4>A delicious new <span className="greenText">nitro brew</span> develop carefully on the darkside of the moon, instilled with the freshness of Stu himself.</h4></div>, 
-              ],
+              <div className = "aboutUsText"><h1>About Us</h1><h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor vestibulum velit, id finibus velit scelerisque nec. Aenean lacinia mollis dolor, et interdum dolor ultricies sed. Fusce risus odio, feugiat non quam sed, congue elementum sapien. Vestibulum rhoncus vulputate vestibulum. Sed auctor ultrices gravida. Curabitur condimentum sagittis odio. Suspendisse non aliquet tortor, a tempor metus. Mauris quis justo efficitur, mattis ante ut, efficitur nunc. Praesent a turpis a leo ornare interdum. In congue maximus nibh, ac cursus turpis volutpat eget. Etiam ligula massa, consequat ac felis non, faucibus mollis lacus. Aenean consequat sem vitae erat malesuada, quis efficitur ipsum lobortis. Morbi a sem sit amet ligula luctus bibendum. Cras enim eros, tincidunt et varius sit amet, mollis nec urna.</h4></div>, 
+              <div className = "newsText"><h1>News</h1><h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor vestibulum velit, id finibus velit scelerisque nec. Aenean lacinia mollis dolor, et interdum dolor ultricies sed. Fusce risus odio, feugiat non quam sed, congue elementum sapien. Vestibulum rhoncus vulputate vestibulum. Sed auctor ultrices gravida. Curabitur condimentum sagittis odio. Suspendisse non aliquet tortor, a tempor metus. Mauris quis justo efficitur, mattis ante ut, efficitur nunc. Praesent a turpis a leo ornare interdum. In congue maximus nibh, ac cursus turpis volutpat eget. Etiam ligula massa, consequat ac felis non, faucibus mollis lacus. Aenean consequat sem vitae erat malesuada, quis efficitur ipsum lobortis. Morbi a sem sit amet ligula luctus bibendum. Cras enim eros, tincidunt et varius sit amet, mollis nec urna.</h4></div>, 
+              <div className = "corporateText"><h1>Corporate</h1><h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor vestibulum velit, id finibus velit scelerisque nec. Aenean lacinia mollis dolor, et interdum dolor ultricies sed. Fusce risus odio, feugiat non quam sed, congue elementum sapien. Vestibulum rhoncus vulputate vestibulum. Sed auctor ultrices gravida. Curabitur condimentum sagittis odio. Suspendisse non aliquet tortor, a tempor metus. Mauris quis justo efficitur, mattis ante ut, efficitur nunc. Praesent a turpis a leo ornare interdum. In congue maximus nibh, ac cursus turpis volutpat eget. Etiam ligula massa, consequat ac felis non, faucibus mollis lacus. Aenean consequat sem vitae erat malesuada, quis efficitur ipsum lobortis. Morbi a sem sit amet ligula luctus bibendum. Cras enim eros, tincidunt et varius sit amet, mollis nec urna.</h4></div>, 
+
+            
+            
+            ],
               
               spans: [
               <h1 style={{color:'black' , textTransform : "uppercase"}}>Luna Yoga Studio</h1>, 
@@ -52,13 +64,26 @@ class App extends Component {
               <p>Karen's Ashtanga course - £42</p>
 
               </ul>
+              </div>,
+              <div className = 'contact'>
+              <h1 style={{color:'black'}}>Contact Us</h1>
+              <ul>
+              <p>Phone -</p>
+              <p>Email - </p>
+              <p>Address - </p>
+              </ul>
               </div>
             ]},
     Tiles : [
-      {img : buyCoffee, title : 'Shop Coffee', subtitle : 'Hand-Rosted Coffee, delievered fresh for ultimate flavour.'},
-      {img : buyTea, title : 'Shop Tea', subtitle : 'Our selection of premium whole leaf tea.'},
-      {img : buyEquipment, title : 'Shop equipment', subtitle : 'Brewers and presses for making the perfect Stu at home.'}
-  ],
+              {img : yoga1, title : 'Course 1', subtitle : 'Course Text'},
+              {img : yoga2, title : 'Course 2', subtitle : 'Course Text'},
+              {img : yoga3, title : 'Course 3', subtitle : 'Course Text'}
+          ],
+    Workshops : [
+              {img : yoga4, title : 'Workshop 1', subtitle : 'Hand-Rosted Coffee, delievered fresh for ultimate flavour.'},
+              {img : yoga5, title : 'Workshop 2', subtitle : 'Our selection of premium whole leaf tea.'},
+              {img : yoga6, title : 'Workshop 3', subtitle : 'Brewers and presses for making the perfect Stu at home.'}
+          ],
     NavFooter : {headings : ["Help", "About Us", "Company Info", "Share"],
               days : ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
               mondayTimes : ['7-8am, Sunrise Gentle, Vinyasa', '11am - 12.15pm, Relax and Restore', '6:30pm - 7:45pm, Six-week course with Karen'],
@@ -101,9 +126,11 @@ class App extends Component {
           headings = {this.state.Main.headings}
           spans = {this.state.Main.spans}
           tiles = {this.state.Tiles}
+          workshops = {this.state.Workshops}
           links = {this.state.NavFooter}
           arrowGreen = {this.state.Main.arrowGreen}
           arrowWhite = {this.state.Main.arrowWhite}
+          
           />
         <Footer
           footer = {this.state.Footer}
