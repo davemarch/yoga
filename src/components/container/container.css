@@ -49,6 +49,11 @@
     top: 0;
 }
 
+#heading {
+    padding-left: 5%;
+    padding-right: 5%; 
+}
+
 
 /* up to tablet */
 @media (max-width: 900px) {

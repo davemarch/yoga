@@ -85,7 +85,12 @@ const Main = (props) => {
                     />
             </div>
             <EmbededContainer/>
-
+            <a className='anchor' name="FAQ"/>
+            <div className = "FAQ">
+                <Container
+                    headings = {props.headings[5]} 
+                />
+            </div>
 
         <NavFooter 
             links = {props.links}/>
