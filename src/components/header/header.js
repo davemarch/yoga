@@ -6,7 +6,7 @@ import NavBar from "../navbar/navbar.js";
 const Header = (props) => {
     return (
     <header id="headerWrap">
-        <img id="logo" src={props.logo}/> 
+        <a href='#'><img id="logo" src={props.logo}/> </a>
         <span id="header">
         {props.heading}
         {props.storeLocator}

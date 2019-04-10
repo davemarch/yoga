@@ -37,7 +37,7 @@ class App extends Component {
     Header : { heading : <p id="offerCode" style={{color:'black'}}> Luna Yoga Studio - tel: <a href='tel:016186921133'>0161 869 21133</a> </p>,
                 // storeLocator : <p id="storeLocator" style={{color:'white'}}></p>,
                 logo : logo,
-                menu : ['About Us', 'TimeTable', 'Contact Us', 'Courses', 'Workshops', 'News', 'Corporate']},
+                menu : ['About Us', 'TimeTable', 'Courses', 'Workshops', 'News', 'Pregnancy Yoga','Corporate','Contact Us']},
     Main : { heroBackground : moonPhoto1,
               // icedCoffee : moonPhoto2,
               icedCoffeeBg : '#0e141d',
@@ -47,7 +47,9 @@ class App extends Component {
               <div className = "headingText"><h1> Coming Soon...</h1><h4>Yoga doesn't care if....</h4></div>, 
               <div className = "aboutUsText"><h1>About Us</h1><h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor vestibulum velit, id finibus velit scelerisque nec.</h4></div>, 
               <div className = "newsText"><h1>News</h1><h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor vestibulum velit, id finibus velit scelerisque nec. </h4></div>, 
+              <div className = "pregnancyText"><h1>Pregnancy Yoga</h1><h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor vestibulum velit, id finibus velit scelerisque nec. </h4></div>, 
               <div className = "corporateText"><h1>Corporate</h1><h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor vestibulum velit, id finibus velit scelerisque nec. </h4></div>, 
+
 
             
             

@@ -10,6 +10,8 @@
 
 }
 
+
+
 #roundImages {
     border-radius: 50%;
     height: 300px;
@@ -19,13 +21,25 @@
     background-position: center;
 }
 
+#circletext {
+    position: relative;
+    border: solid 0.5px black;
+    border-radius: 10px;
+    width: 40%;
+    bottom: 27%;
+    color: white;
+    background: grey;
+    opacity: 0.8;
+    text-align: center;
+}
+
 @media (max-width: 600px) {
     #roundImages {
-        position: absolute;
+        position: relative;
         border-radius: 50%;
         height: 70px;
         width: 70px;
-        left: 70%;
+        left: 35%;
     }
 
     #tile {
@@ -45,10 +59,10 @@
     }
 
     #circletext {
-        position: absolute;
-        /* border: solid 1px green; */
-        width: 60%;
-        right: 30%;
+        position: relative;
+        width: 30%;
+        right: 20%;
+        top: 0%;
     }
 }
 
