@@ -16,7 +16,7 @@
 }
 
 .topContainer #heading{
-    top: 40%;
+    top: 60%;
 }
 
 #arrow {
@@ -75,12 +75,12 @@
     }
 
     .topContainer {
-        margin-top: 25%;
+        margin-top: 20%;
 }
 
     .topContainer #heading{
         /* border: solid red 1px; */
-        top: 40%;
+        top: 52%;
     }
 
     .icedCoffeeCont {

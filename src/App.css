@@ -22,5 +22,9 @@
     margin-top: -112px;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 
 

@@ -12,11 +12,7 @@ import linkedin from "./Assets/Icons/icon-linkedin.png";
 import pinterest from "./Assets/Icons/icon-pinterest.png";
 import twitter from "./Assets/Icons/icon-twitter.png";
 import moonPhoto1 from "./Assets/Images/moonPhoto1.jpg";
-import moonPhoto2 from "./Assets/Images/moonPhoto2.jpg";
-import icedCoffee from "./Assets/Images/StubrewIcedCoffee.png";
-import buyCoffee from "./Assets/Images/buyCoffee.jpg";
-import buyTea from "./Assets/Images/buyTea.jpg";
-import buyEquipment from "./Assets/Images/buyEquipment.png";
+import moonPhoto2 from "./Assets/Images/yogaphoto1.jpeg";
 import arrowGreen from "./Assets/Icons/icon-arrow-green.png";
 import arrowWhite from "./Assets/Icons/icon-arrow-white.png";
 import map from "./Assets/Icons/map.png";
@@ -38,7 +34,7 @@ class App extends Component {
                 // storeLocator : <p id="storeLocator" style={{color:'white'}}></p>,
                 logo : logo,
                 menu : ['About Us', 'TimeTable', 'Courses', 'Workshops', 'News', 'Pregnancy Yoga','Corporate','FAQ','Contact Us']},
-    Main : { heroBackground : moonPhoto1,
+    Main : { heroBackground : moonPhoto2,
               // icedCoffee : moonPhoto2,
               icedCoffeeBg : '#0e141d',
               arrowWhite: arrowWhite,
@@ -83,9 +79,9 @@ class App extends Component {
               {img : yoga3, title : 'Course 3', subtitle : 'Course Text'}
           ],
     Workshops : [
-              {img : yoga4, title : 'Workshop 1', subtitle : 'Hand-Rosted Coffee, delievered fresh for ultimate flavour.'},
-              {img : yoga5, title : 'Workshop 2', subtitle : 'Our selection of premium whole leaf tea.'},
-              {img : yoga6, title : 'Workshop 3', subtitle : 'Brewers and presses for making the perfect Stu at home.'}
+              {img : yoga4, title : 'Workshop 1', subtitle : 'Workshop Text'},
+              {img : yoga5, title : 'Workshop 2', subtitle : 'Workshop Text'},
+              {img : yoga6, title : 'Workshop 3', subtitle : 'Workshop Text'}
           ],
     NavFooter : {headings : ["Help", "About Us", "Company Info", "Share"],
               days : ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],

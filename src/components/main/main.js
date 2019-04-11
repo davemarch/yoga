@@ -58,9 +58,9 @@ const Main = (props) => {
             </div>
                 <a className='anchor' name="News"/>
         <div className = "News">
-            <Container
-                headings = {props.headings[2]} 
-            />
+            {/* <Container headings = {props.headings[2]} /> */}
+            <EmbededContainer/>
+
         </div>
             <Span
         // spans = {props.spans[1]}
@@ -76,23 +76,20 @@ const Main = (props) => {
                 <Container
                     headings = {props.headings[4]} 
                 />
-            </div>
-
-            <a className='anchor' name="Contact Us"/>
-            <div className='contactUs'>
-                <Span
-                spans = {props.spans[2]}
-                    />
-            </div>
-            <EmbededContainer/>
+            </div>            
             <a className='anchor' name="FAQ"/>
             <div className = "FAQ">
                 <Container
                     headings = {props.headings[5]} 
                 />
             </div>
-
-        <NavFooter 
+            <a className='anchor' name="Contact Us"/>
+            <div className='contactUs'>
+                <Span
+                spans = {props.spans[2]}
+                    />
+            </div>
+            <NavFooter 
             links = {props.links}/>
     </div>
     )
