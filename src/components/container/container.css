@@ -26,6 +26,10 @@
     top: 60%;
 }
 
+.content-container h1 {
+    margin-bottom: 5%;
+}
+
 #arrow {
     position: absolute;
     width: 5%;

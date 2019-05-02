@@ -9,11 +9,15 @@
 #navbar ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     align-content: center;
     list-style: none;
-    padding-left: 30%;
+    width: 100%;
 } 
+
+#navbar li {
+    margin-right: 32px;
+}
 
 #navbar a {
     color: white;
@@ -33,7 +37,7 @@
 }
 
 /* up to tablet */
-@media (max-width: 900px) {
+@media (max-width: 1180px) {
     
     #navbar {
         /* position: fixed;

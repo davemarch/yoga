@@ -30,7 +30,7 @@ import yoga6 from "./Assets/Images/yoga6.jpg";
 
 class App extends Component {
   state = {
-    Header : { heading : <p id="offerCode" style={{color:'black'}}> Luna Yoga Studio - tel: <a href='tel:07927382168.'>07927 382168.</a> </p>,
+    Header : { heading : <span id="offerCode" style={{color:'black'}}> Luna Yoga Studio - tel: <a href='tel:07927382168.'>07927 382168.</a> </span>,
                 // storeLocator : <p id="storeLocator" style={{color:'white'}}></p>,
                 logo : logo,
                 menu : ['About Us', 'TimeTable', 'Courses', 'Workshops', 'News', 'Pregnancy Yoga','Corporate','FAQ','Contact Us']},
