@@ -47,9 +47,6 @@ class App extends Component {
               <div className = "corporateText"><h1>Corporate</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor vestibulum velit, id finibus velit scelerisque nec. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor vestibulum velit, id finibus velit scelerisque nec. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor vestibulum velit, id finibus velit scelerisque nec.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor vestibulum velit, id finibus velit scelerisque nec.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor vestibulum velit, id finibus velit scelerisque nec. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor vestibulum velit, id finibus velit scelerisque nec. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor vestibulum velit, id finibus velit scelerisque nec.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor vestibulum velit, id finibus velit scelerisque nec.</p></div>, 
               <div className = "FAQ"><h1>FAQ</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor vestibulum velit, id finibus velit scelerisque nec. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor vestibulum velit, id finibus velit scelerisque nec. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor vestibulum velit, id finibus velit scelerisque nec.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor vestibulum velit, id finibus velit scelerisque nec.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor vestibulum velit, id finibus velit scelerisque nec. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor vestibulum velit, id finibus velit scelerisque nec. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor vestibulum velit, id finibus velit scelerisque nec.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor vestibulum velit, id finibus velit scelerisque nec.</p></div>, 
 
-
-            
-            
             ],
               
               spans: [
@@ -67,14 +64,14 @@ class App extends Component {
               <div className = 'contact'>
               <h1 style={{color:'black'}}>Contact Us</h1>
               <ul>
-              <p>Phone - 07927 382168</p>
+              <p>Phone - <a href='tel:07927382168.'>07927 382168.</a></p>
               <p>Address - Luna Yoga Studio, 227A Bacup Road, Rawtenstall, BB4 7PA</p>
               </ul>
               </div>
             ]},
     Tiles : [
-              {img : yoga1, title : 'Course 1', subtitle : 'Course Text'},
-              {img : yoga2, title : 'Course 2', subtitle : 'Course Text'},
+              {img : yoga1, title : 'Course 1', subtitle : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor vestibulum velit, id finibus velit scelerisque nec. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor vestibulum velit, id finibus velit scelerisque nec. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor vestibulum velit, id finibus velit scelerisque nec.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor vestibulum velit, id finibus velit scelerisque nec.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor vestibulum velit, id finibus velit scelerisque nec. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor vestibulum velit, id finibus velit scelerisque nec. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor vestibulum velit, id finibus velit scelerisque nec.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor vestibulum velit, id finibus velit scelerisque nec.'},
+              {img : yoga2, title : 'Course 2', subtitle : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor vestibulum velit, id finibus velit scelerisque nec. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor vestibulum velit, id finibus velit scelerisque nec. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor vestibulum velit, id finibus velit scelerisque nec.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor vestibulum velit, id finibus velit scelerisque nec.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor vestibulum velit, id finibus velit scelerisque nec. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor vestibulum velit, id finibus velit scelerisque nec. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor vestibulum velit, id finibus velit scelerisque nec.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor vestibulum velit, id finibus velit scelerisque nec.'},
               {img : yoga3, title : 'Course 3', subtitle : 'Course Text'}
           ],
     Workshops : [
@@ -97,7 +94,7 @@ class App extends Component {
               helpLinks : ["My account", 'Stu Cards', "Stu Rewards", "Shipping & Returns", "Current Offers", "Contact Us"],
               aboutLinks : ["Join Stu", 'Social Responsibilty', "Our People", "Newsroom"],
               companyLinks : ['Code Ethics', 'Responsible Sourcing', 'Supply Chain', 'Limited Partners', 'Office Coffee'],
-              socialLinks : [<a href='https://www.facebook.com/lunayogastudio1/'><img src={facebook}/></a>, <a href=''><img src={instagram}/></a>, <a href=''><img src={linkedin}/></a>, <a href=''><img src={twitter}/></a>,<a href=''><img src={pinterest}/></a>]
+              socialLinks : [<a href='https://www.facebook.com/lunayogastudio1/' target="_blank"><img src={facebook}/></a>, <a href='https://www.instagram.com/luna_yogastudio' target="_blank"><img src={instagram}/></a>]
              },
     Footer : {address : <p>Luna Yoga Studio, 227A Bacup Road, Rawtenstall, BB4 7PA </p>,
               links : [''],
