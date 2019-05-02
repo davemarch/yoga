@@ -19,6 +19,8 @@ const EmbededContainer = (props) => {
         <div class="fb-page" 
             data-href="https://www.facebook.com/lunayogastudio1" 
             data-tabs="timeline" 
+            data-width="600" 
+            data-height=""
             data-small-header="false" 
             data-adapt-container-width="true" 
             data-hide-cover="true" 

@@ -55,14 +55,13 @@
         position: absolute;
         left: auto;
         right: 2%;
-        /* top: 140%; */
         padding: 1%;
         min-width: 75px;
         max-width: 75px;
         z-index: 2;
         
         /* LEANNE CODE: */
-        top: 50px;
+        top: 68px;
     }
 }
 

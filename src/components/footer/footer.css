@@ -12,19 +12,21 @@
 .address {
     /* margin-left: 50px; */
     position: relative;
-    width: auto;
+    width: 100%;
     left: 50%;
     transform: translateX(-50%);
 }
 
 .address iframe {
-    
-    /* LEANNE CODE:
-    stops the map from overflowing it's parent div
-    maps are naughty little things */
-    max-width: 100%;
-    
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 50%;
 }
+
+.address p {
+    text-align: center;
+} 
 
 .footerWrapper {
     text-align: right;
@@ -45,15 +47,13 @@
     }
     .address {
         position: relative;
-        
-        /* LEANNE CODE:
-        don't need this hack postion now */
-        
-        /* margin-left: 0; */
-        /* padding: 5%; */
-        /* left: 0%; */
+
     }
 
+    .address iframe {
+        max-width: 100%;
+        width: 100%;
+    }
     #mapicon {
         display: inline;
         height: 20px;
